@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="webTests.seleniumProjetoFinal" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-30T03:57:07" hostname="LAPTOP-R9H2TGFS" time="20.278">
+  <properties/>
+  <testcase name="pesquisarCanecas" classname="webTests.seleniumProjetoFinal" time="20.278"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 23507
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632974222.001][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+set 30, 2021 12:57:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+</testsuite>

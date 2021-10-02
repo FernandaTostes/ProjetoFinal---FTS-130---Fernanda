@@ -1,0 +1,6 @@
+"date e hora","caso de teste","mensagem"
+"[2021/09/28 23:37:33:3733] ","INICIO dos Casos De Teste","Teste Iniciou em 2021-09-28 23-37"
+"[2021/09/28 23:37:57:3757] ","submarino","Abriu o Site"
+"[2021/09/28 23:37:57:3757] ","Caso de Teste submarino","Iniciou o Caso de Teste"
+"[2021/09/28 23:39:57:3957] ","FIM do Caso de Teste","Terminou em 2021-09-28 23-39"
+"[2021/09/28 23:39:59:3959] ","FIM dos Casos de Teste","Teste Iniciou em 2021-09-28 23-37 e Terminou em 2021-09-28 23-39"

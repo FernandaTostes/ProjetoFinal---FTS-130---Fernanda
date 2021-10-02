@@ -1,0 +1,6 @@
+"date e hora","caso de teste","mensagem"
+"[2021/09/26 23:25:25:2525] ","INICIO dos Casos De Teste","Teste Iniciou em 2021-09-26 23-25"
+"[2021/09/26 23:25:31:2531] ","cvc","Abriu o Site"
+"[2021/09/26 23:25:31:2531] ","Caso de Teste cvc","Iniciou o Caso de Teste"
+"[2021/09/26 23:25:31:2531] ","FIM do Caso de Teste","Terminou em 2021-09-26 23-25"
+"[2021/09/26 23:25:32:2532] ","FIM dos Casos de Teste","Teste Iniciou em 2021-09-26 23-25 e Terminou em 2021-09-26 23-25"

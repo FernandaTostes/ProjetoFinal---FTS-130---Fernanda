@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3317433635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "comprarCursoPO.iniciar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3496081,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.iniciarPO()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Pesquisar Curso com Cliquew e Incluir no Carrinho PO",
+        "description": "",
+        "id": "comprar-curso-po;pesquisar-curso-com-cliquew-e-incluir-no-carrinho-po",
+        "after": [
+          {
+            "result": {
+              "duration": 148171164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "comprarCursoPO.finalizar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 114858,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.finalizarPO()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8296195342,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "que acesso o site da Iterasys PO",
+            "match": {
+              "location": "comprarCursoPO.queAcessoOSiteDaIterasysPO()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 553293599,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "pesquiso por \"Mantis\" PO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mantis",
+                  "offset": 14
+                }
+              ],
+              "location": "comprarCursoPO.pesquisoPorPO(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205287408,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clico na Lupa PO",
+            "match": {
+              "location": "comprarCursoPO.clicoNaLupaPO()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2969925980,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "vejo a lista de resultados para o curso \"Mantis\" PO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mantis",
+                  "offset": 41
+                }
+              ],
+              "location": "comprarCursoPO.vejoAListaDeResultadosParaOCursoPO(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7142684014,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Matricule-se PO",
+            "match": {
+              "location": "comprarCursoPO.clicoEmMatriculeSePO()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139391338,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "confirmo o nome do curso como \"Mantis\" e o preco de \"R$ 49,99\" PO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mantis",
+                  "offset": 31
+                },
+                {
+                  "val": "R$ 49,99",
+                  "offset": 53
+                }
+              ],
+              "location": "comprarCursoPO.confirmoONomeDoCursoComoEOPrecoDePO(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Comprar Curso PO",
+    "description": "",
+    "id": "comprar-curso-po",
+    "keyword": "Feature",
+    "uri": "comprarCursoPO.feature"
+  }
+]
